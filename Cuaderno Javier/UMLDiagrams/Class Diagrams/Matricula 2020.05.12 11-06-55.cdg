@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Matricula">
+  <ClassDiagramComponents>
+    <Class name="frmMatricula" package="matricula" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="dtm" type="DefaultTableModel" visibility="package"/>
+        <Field name="Tabla" type="javax.swing.JTable" visibility="private"/>
+        <Field name="btnCerrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnMatricular" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnNuevo" type="javax.swing.JButton" visibility="private"/>
+        <Field name="btnQuitar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="cboCurso" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="cboGrado" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jDesktopPane1" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="jDesktopPane2" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel7" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTabbedPane1" type="javax.swing.JTabbedPane" visibility="private"/>
+        <Field name="rbCon" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbCuotas" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbFem" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="rbMas" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="txtApe" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtCosto" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtDura" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNom" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtPTotal" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtTel" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="btnNuevoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnMatricularActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cboCursoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnQuitarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnCerrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Matricula" package="matricula" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

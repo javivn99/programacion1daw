@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejemplo_Pilas">
+  <ClassDiagramComponents>
+    <Class name="Ejemplo_Pilas" package="ejemplo_pilas" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Pila" package="misClases" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="InsertarPila" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Stack" name="pila"/>
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="ExtraerPila" returnType="void" visibility="package" isStatic="true">
+          <Argument type="Stack" name="pila"/>
+        </Method>
+        <Method name="pila" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
